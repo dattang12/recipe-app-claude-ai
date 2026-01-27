@@ -1,0 +1,45 @@
+# =====================
+# Dependencies
+# =====================
+node_modules/
+server/node_modules/
+
+# =====================
+# Build output
+# =====================
+dist/
+build/
+server/dist/
+
+# =====================
+# Environment variables (SECRETS)
+# =====================
+.env
+.env.*
+server/.env
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =====================
+# Editor / OS files
+# =====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =====================
+# Vite / tooling cache
+# =====================
+.vite/
+.cache/
+
